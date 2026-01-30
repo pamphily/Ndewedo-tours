@@ -1,0 +1,376 @@
+├── .idea/
+│   ├── caches/
+│   │   └── deviceStreaming.xml
+│   ├── .gitignore
+│   ├── misc.xml
+│   ├── modules.xml
+│   ├── ndewedo.iml
+│   ├── vcs.xml
+│   └── workspace.xml
+├── app/
+│   ├── about/
+│   │   └── page.tsx
+│   ├── blog/
+│   │   └── page.tsx
+│   ├── contact/
+│   │   └── page.tsx
+│   ├── cultural-tours/
+│   │   └── page.tsx
+│   ├── faqs/
+│   │   └── page.tsx
+│   ├── gallery/
+│   │   └── page.tsx
+│   ├── privacy-policy/
+│   │   └── page.tsx
+│   ├── refund-policy/
+│   │   └── page.tsx
+│   ├── reviews/
+│   │   └── page.tsx
+│   ├── safaris/
+│   │   ├── luxury/
+│   │   │   └── page.tsx
+│   │   ├── packages/
+│   │   │   └── serengeti-5-day/
+│   │   │       └── page.tsx
+│   │   ├── photography/
+│   │   │   └── page.tsx
+│   │   ├── wildlife/
+│   │   │   └── page.tsx
+│   │   └── page.tsx
+│   ├── terms/
+│   │   └── page.tsx
+│   ├── trekking/
+│   │   └── page.tsx
+│   ├── volunteer/
+│   │   └── page.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── figma/
+│   │   └── ImageWithFallback.tsx
+│   ├── ui/
+│   │   ├── accordion.tsx
+│   │   ├── alert-dialog.tsx
+│   │   ├── alert.tsx
+│   │   ├── aspect-ratio.tsx
+│   │   ├── avatar.tsx
+│   │   ├── badge.tsx
+│   │   ├── breadcrumb.tsx
+│   │   ├── button.tsx
+│   │   ├── calendar.tsx
+│   │   ├── card.tsx
+│   │   ├── carousel.tsx
+│   │   ├── chart.tsx
+│   │   ├── checkbox.tsx
+│   │   ├── collapsible.tsx
+│   │   ├── command.tsx
+│   │   ├── context-menu.tsx
+│   │   ├── dialog.tsx
+│   │   ├── drawer.tsx
+│   │   ├── dropdown-menu.tsx
+│   │   ├── form.tsx
+│   │   ├── hover-card.tsx
+│   │   ├── input-otp.tsx
+│   │   ├── input.tsx
+│   │   ├── label.tsx
+│   │   ├── menubar.tsx
+│   │   ├── navigation-menu.tsx
+│   │   ├── pagination.tsx
+│   │   ├── popover.tsx
+│   │   ├── progress.tsx
+│   │   ├── radio-group.tsx
+│   │   ├── resizable.tsx
+│   │   ├── scroll-area.tsx
+│   │   ├── select.tsx
+│   │   ├── separator.tsx
+│   │   ├── sheet.tsx
+│   │   ├── sidebar.tsx
+│   │   ├── skeleton.tsx
+│   │   ├── slider.tsx
+│   │   ├── sonner.tsx
+│   │   ├── switch.tsx
+│   │   ├── table.tsx
+│   │   ├── tabs.tsx
+│   │   ├── textarea.tsx
+│   │   ├── toggle-group.tsx
+│   │   ├── toggle.tsx
+│   │   ├── tooltip.tsx
+│   │   ├── use-mobile.ts
+│   │   └── utils.ts
+│   ├── Footer.tsx
+│   ├── Header.tsx
+│   └── NewsletterPopup.tsx
+├── data/
+│   └── posts.json
+├── guidelines/
+│   └── Guidelines.md
+├── imports/
+│   ├── 1920WDefault.tsx
+│   └── svg-qq1qf7danv.ts
+├── lib/
+│   ├── getMarkdownContent.ts
+│   ├── getPosts.ts
+│   └── posts.js
+├── public/
+│   ├── assets/
+│   │   ├── 096ad67605b77745a604a0eb2cbc4a19b2f2607e.png
+│   │   ├── 1b37f012201d1b14a210e3e47b6003cf27d0d796.png
+│   │   ├── 4705ec86d147cf51327bc3f2d7ef9b229b2fca12.png
+│   │   ├── 4896bee8f42ca065d19ca2aa2b51bf80240d4df1.png
+│   │   ├── 4dd1a8da14995d40fe1b2f22a0c8fe00e4988abf.png
+│   │   ├── 4ef3a9d10eed41f464501bbc039176b746132762.png
+│   │   ├── 5e9bdb8ec0de5cb6f763bdda7c8e2df02f49cb5d.png
+│   │   ├── 6870993bf1e00fbf0cb4123dc0e7f9640cf9e623.png
+│   │   ├── 781ef97efef4353b0065980214fdfc173a878e1d.png
+│   │   ├── 7ec326915fc9622b4ec1a84a59007ebf5c5fbeaf.png
+│   │   ├── 84aae7ff223a40785576ac228aed3a3c2d2b2a01.png
+│   │   ├── 8c94629a5a5ad4d6d93a9cbc25691273b88a5856.png
+│   │   ├── 8fd3a9c841e1b6c7141da1c360210e5d2eb02709.png
+│   │   ├── 97286e333788d7992e7a899eb35879994a8baed5.png
+│   │   ├── a420951cd77a9c2d2b07121df867921e78a99b44.png
+│   │   ├── b3d5f4b94bfeceee974d36b4f0f09a7ae8027a3a.png
+│   │   ├── bb640ebfaa3ebde6ed54e7f6b9a3e12b099992c8.png
+│   │   ├── cb595256f8b3a743253c8cabb0191a5630c2f1ef.png
+│   │   ├── dcb7db1dd8a9c47016820ecfeb6856868d2a959d.png
+│   │   └── ff00d23fad24806dc627271ecd84faa04e55b989.png
+│   └── uploads/
+│       ├── 02bcaa34-985e-4f44-9333-5578df70b88b.jpeg
+│       ├── 1065242333_0_269_2685_1779_1920x0_80_0_0_ab1362d1a940d2f98eae16f8faea31f3.jpg
+│       ├── 15-1.jpg
+│       ├── 18150-1.jpg
+│       ├── 3731.jpg
+│       ├── 3ad8294469106e2aeaa2accd2e6718e7.webp
+│       ├── 3FC4C35A-3794-4359-AD52-FFF1DA2E6397-713x950-1.webp
+│       ├── 4585de42-06e2-4631-beda-35e82fc272fe.jpeg
+│       ├── 66980757-c470-4434-a699-32cb45805f1a.jpeg
+│       ├── 75d7c60e-9803-482c-8bae-b9a21d90af3a-1.jpeg
+│       ├── 75d7c60e-9803-482c-8bae-b9a21d90af3a.jpeg
+│       ├── 7867d3b6-831f-46a9-a0cc-cce0f7e70ce5.jpeg
+│       ├── A-breathtaking-snapshot-of-a-dolphin-leaping….jpeg
+│       ├── aboutus.png
+│       ├── ae4f20f9-70fe-4610-a530-612822ff8623.jpeg
+│       ├── african-people-harvesting-vegetables-scaled.jpg
+│       ├── alex-suprun-mynsNaNwVDc-unsplash.webp
+│       ├── alexey-murzin-T8-Y9IwPFxE-unsplash-scaled.webp
+│       ├── arrow-right.svg
+│       ├── arrow-right4.svg
+│       ├── Arusha-1.jpg.webp
+│       ├── baboon.webp
+│       ├── beach-2036446_1920.jpg
+│       ├── bikee-1.webp
+│       ├── bird-watching-manyara.webp
+│       ├── boat-7487508_1920.jpg
+│       ├── Bushbuck-ram-by-Isabel.jpeg
+│       ├── Celebration-on-the-Roof-of-Africa_-Climbers….jpeg
+│       ├── Century-old-giant-tortoises-on-Prison-island….jpeg
+│       ├── christopher-campbell-rDEOVtE7vOs-unsplash-scaled.webp
+│       ├── Colobus-Monkeys.jpeg
+│       ├── coming_bg.jpeg
+│       ├── compass.png
+│       ├── contact-mail.png
+│       ├── conversation.png
+│       ├── Crab-Symbolism-7-Top-Meanings-–-Dreams-Spirit….jpeg
+│       ├── cropped-ndewedo-favicon-1.webp
+│       ├── cropped-ndewedo-favicon.webp
+│       ├── crowd-of-users-1.png
+│       ├── crowd-of-users.png
+│       ├── dc25bd5a-4460-4955-89a9-e192e3bf6652.jpeg
+│       ├── Excursions-48-768x768-1.webp
+│       ├── Excursions-49-768x768-1.webp
+│       ├── Excursions-52-768x768-1.webp
+│       ├── Experience-the-miracle-of-new-life-during-the….jpeg
+│       ├── f488db03bf944c836720d377e3b3ceb0-scaled.jpeg
+│       ├── f54cbf54-2c29-4bf9-999e-b87b2b5ed1ec.jpeg
+│       ├── fire.png
+│       ├── floral-1.png
+│       ├── floral.png
+│       ├── Free-AI-Image-_-Medium-shot-woman-posing-with….jpeg
+│       ├── freepik__upload__50804-e1739549252363.png
+│       ├── gazelle-1.webp
+│       ├── gazelle.webp
+│       ├── giraffe-is-standing-grass-with-car-background_917313-21926.webp
+│       ├── Happy-millennial-african-american-man-in-glasses….jpeg
+│       ├── help.png
+│       ├── hiking.png
+│       ├── hornbill.webp
+│       ├── hu-chen-BRXn1JtdXtc-unsplash.webp
+│       ├── hyena.webp
+│       ├── igor-savelev-M6CLyDP9Lfo-unsplash-scaled.webp
+│       ├── image-gallery-1.png
+│       ├── image-gallery.png
+│       ├── images-1.jpeg
+│       ├── images.jpeg
+│       ├── img-1.webp
+│       ├── img-10.webp
+│       ├── img-11-scaled.webp
+│       ├── img-11.webp
+│       ├── img-12.webp
+│       ├── img-13-scaled.webp
+│       ├── img-14.webp
+│       ├── img-15.webp
+│       ├── img-16.webp
+│       ├── img-17.webp
+│       ├── img-18.webp
+│       ├── img-19.webp
+│       ├── img-2.webp
+│       ├── img-20.webp
+│       ├── img-21.webp
+│       ├── img-22.webp
+│       ├── img-23.webp
+│       ├── img-24.webp
+│       ├── img-25.webp
+│       ├── img-26.webp
+│       ├── img-27.webp
+│       ├── img-28.webp
+│       ├── img-29.webp
+│       ├── img-3.webp
+│       ├── img-30.webp
+│       ├── img-31.webp
+│       ├── img-32.webp
+│       ├── img-33.webp
+│       ├── img-34.webp
+│       ├── img-35.webp
+│       ├── img-36.webp
+│       ├── img-37.webp
+│       ├── img-38.webp
+│       ├── img-39.webp
+│       ├── img-4.webp
+│       ├── img-40.webp
+│       ├── img-42.webp
+│       ├── img-43-scaled.webp
+│       ├── img-44-scaled.webp
+│       ├── img-45-scaled.webp
+│       ├── img-46-scaled.webp
+│       ├── img-5.webp
+│       ├── img-6.webp
+│       ├── img-7.webp
+│       ├── img-8.webp
+│       ├── img-9.webp
+│       ├── img17.webp
+│       ├── IMG_1164.webp
+│       ├── IMG_7878-700x700-1.webp
+│       ├── info.png
+│       ├── iStock-1219604570-1-scaled.webp
+│       ├── iStock-1219604570-scaled.webp
+│       ├── itinerary-colored.png
+│       ├── itinerary.webp
+│       ├── Kenya-scaled-1.webp
+│       ├── kili.jpg
+│       ├── kilimanjaro-944311_640.jpg
+│       ├── leopard-515510_1920.jpg
+│       ├── line-pattern2-1.png
+│       ├── line-pattern3.png
+│       ├── lion-resting-tree-trunk_1048944-537528.jpg
+│       ├── low-angle-friends-dressed-carnival-scaled.jpg
+│       ├── Malachite-Sunbird.jpeg
+│       ├── man-with-bag-and-walking-stick.png
+│       ├── mariola-grobelska-KUxpK9KgQZ8-unsplash-scaled.webp
+│       ├── med-j-ePeTsqcyUiI-unsplash-scaled.webp
+│       ├── mountain-3081356_640.jpg
+│       ├── ndewedo-favicon.webp
+│       ├── Ndewedo-Logo3-249x82-1.webp
+│       ├── Ndewedo-Logo3-249x82-2.webp
+│       ├── nicolas-horn-MTZTGvDsHFY-unsplash-scaled.webp
+│       ├── payment.webp
+│       ├── pexels-490714164-28157088-scaled.webp
+│       ├── pexels-balazsimon-15993990-scaled.webp
+│       ├── pexels-balazsimon-15994011-scaled.webp
+│       ├── pexels-balazsimon-15994039-scaled.webp
+│       ├── pexels-balazsimon-15994191-scaled.jpg
+│       ├── pexels-bharath-kumar-venkatesh-1417371218-28796182-scaled.webp
+│       ├── pexels-brotin-biswas-158640-518543-scaled.jpg
+│       ├── pexels-david-foster-229758093-12083667-scaled.webp
+│       ├── pexels-edgar-okioga-221433-5521696-scaled.jpg
+│       ├── pexels-elliotconnor-12914823-scaled.jpg
+│       ├── pexels-followalice-667202-scaled.webp
+│       ├── pexels-gabriele-brancati-32566116-14367741-scaled.webp
+│       ├── pexels-garycohen-12339475-scaled.webp
+│       ├── pexels-gsn-travel-28708299-scaled.jpg
+│       ├── pexels-hsapir-1054666-scaled.webp
+│       ├── pexels-illustrate-digital-ug-924569584-28101466-scaled.webp
+│       ├── pexels-jruwa-5109704-scaled.webp
+│       ├── pexels-kureng-workx-2546437-4314681-scaled.webp
+│       ├── pexels-lagosfoodbank-8042458-scaled.jpg
+│       ├── pexels-lagosfoodbank-8042458-scaled.webp
+│       ├── pexels-lagosfoodbank-8060300-scaled.webp
+│       ├── pexels-lagosfoodbank-8061687-scaled.webp
+│       ├── pexels-laukevtravel-26924191-scaled.webp
+│       ├── pexels-limonovdigital-8768454-scaled.webp
+│       ├── pexels-mcgzay-27720736-scaled.webp
+│       ├── pexels-mikhail-nilov-8356482-scaled.webp
+│       ├── pexels-mk-2149411980-30598328-scaled.webp
+│       ├── pexels-monkeytactics-752035-scaled.webp
+│       ├── pexels-photosbybeks-13876072-scaled.webp
+│       ├── pexels-prasanthdas-1670413-scaled.webp
+│       ├── pexels-richard-segal-732340-1618606-scaled.webp
+│       ├── pexels-shutterpicks-3653545-scaled.webp
+│       ├── pexels-simon-brandintel-891205-3992510-scaled.webp
+│       ├── pexels-taryn-elliott-5859211-scaled.jpg
+│       ├── pexels-taryn-elliott-5859217-scaled.jpg
+│       ├── pexels-thefatmansvision-3850526-scaled.webp
+│       ├── pexels-twilightkenya-14510955-scaled.webp
+│       ├── pexels-valerie-sutton-34163824-11679893-scaled.webp
+│       ├── pexels-wussol-2147803031-30879010-scaled.webp
+│       ├── photorealistic-portrait-african-woman-scaled.jpg
+│       ├── Pink-Pelicans.jpeg
+│       ├── pngwing.png
+│       ├── rating.png
+│       ├── register.png
+│       ├── reputation.png
+│       ├── Rhabdotorrhinus-corrugatus-Sunda-Wrinkled….jpeg
+│       ├── safari.png
+│       ├── SafeTravels.webp
+│       ├── Screen-Shot-2020-06-17-at-3.17.27-PM-712x950-1.png
+│       ├── Screen-Shot-2020-06-17-at-3.22.23-PM-599x950-1.png
+│       ├── Screen-Shot-2020-06-17-at-3.22.39-PM-223x300-1.png
+│       ├── Screen-Shot-2020-06-18-at-10.10.59-AM-708x950-1.png
+│       ├── Screen-Shot-2020-06-18-at-10.11.09-AM-709x950-1.png
+│       ├── Screen-Shot-2020-06-18-at-10.43.23-AM-768x578-1.png
+│       ├── Screen-Shot-2020-06-18-at-11.03.16-AM-1240x807-1.png
+│       ├── Screen-Shot-2020-06-18-at-11.05.29-AM-1024x757-1.png
+│       ├── Screen-Shot-2020-06-18-at-11.05.40-AM-1240x938-1.png
+│       ├── Screen-Shot-2020-06-18-at-11.05.50-AM-768x312-1.png
+│       ├── Screen-Shot-2020-06-18-at-11.20.37-AM-1536x1534-1.png
+│       ├── Screen-Shot-2020-06-18-at-11.21.52-AM-1100x1536-1.png
+│       ├── Screen-Shot-2020-06-18-at-11.23.20-AM-1240x889-1.png
+│       ├── Screen-Shot-2020-06-18-at-9.52.25-AM-600x878-1.png
+│       ├── Screen-Shot-2020-06-18-at-9.52.25-AM.png
+│       ├── search.png
+│       ├── Serengeti-1.jpg.webp
+│       ├── Serengeti-3.jpg.webp
+│       ├── Sharons-Headshots-_-Ana-Isabel-Photography.jpeg
+│       ├── SouthAfrica-scaled-1.webp
+│       ├── star-1.png
+│       ├── stone.jpg
+│       ├── Tanzania-scaled-1.webp
+│       ├── TanzaniaTourBoard.webp
+│       ├── tarangire-river.jpg
+│       ├── The-Great-Wildebeest-Migration-in-Kenya-is-one-of….jpeg
+│       ├── travel-and-tourism.png
+│       ├── TravelAdvisor.webp
+│       ├── Trekking-Through-Gombe-Stream_-A-Journey-into-the….jpeg
+│       ├── tripadvisor.png
+│       ├── Untitled.webp
+│       ├── weddings-art-commercial-1-scaled.webp
+│       ├── young-woman-sits-beach-carpet-straw-hat-white-knitted-clothes-scaled.jpg
+│       ├── Zambia.webp
+│       ├── zulu-1.png
+│       ├── zulu.png
+│       ├── ꒰༽྄༼꒱-1.jpeg
+│       └── ꒰༽྄༼꒱.jpeg
+├── styles/
+│   └── globals.css
+├── .gitignore
+├── directory-structure.txt
+├── eslint.config.mjs
+├── export.xml
+├── ft.js
+├── next-env.d.ts
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── README.md
+├── tailwind.config.ts
+└── tsconfig.json

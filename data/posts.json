@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Welcome to Ndewedo Tours",
+    "slug": "welcome-to-ndewedo-tours",
+    "excerpt": "<p>This is our first blog post...</p>",
+    "content": "<p>Full post content here...</p>",
+    "date": "2024-05-12"
+  },
+  {
+    "id": 2,
+    "title": "Exploring Serengeti",
+    "slug": "exploring-serengeti",
+    "excerpt": "<p>A journey through the plains...</p>",
+    "content": "<p>Details about the trip...</p>",
+    "date": "2024-05-14"
+  }
+]
