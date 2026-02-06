@@ -84,6 +84,61 @@ const safariPackages = [
     'Gentle pacing focused on nature harmony and cultural reflection'
   ]
 },
+{
+  id: 'luxury-private-8-day',
+  title: '8-DAY LUXURY PRIVATE SAFARI – TANZANIA',
+  duration: '8 Days / 7 Nights',
+  price: '$9,735',
+  rating: 5.0,
+  reviews: 92,
+  href: "/safaris/packages/private-8-day",
+  image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/0f/05/78/lemala-mpingo-ridge.jpg?w=900&h=500&s=1',  // Lemala Mpingo Ridge escarpment luxury view
+  description: 'Exclusive private safari with dedicated guide & vehicle: Tarangire elephants, Lake Manyara lions, Serengeti migration tracking, staying at premium lodges like Arusha Coffee Lodge, Lemala Mpingo Ridge, Meliá Ngorongoro, and Siringit camps.',
+  highlights: [
+    'Private game drives & dedicated guide/vehicle',
+    'Vast elephant herds & baobabs in Tarangire',
+    'Tree-climbing lions in Lake Manyara',
+    'Great Migration access in Northern Serengeti',
+    'Refined luxury tents & rim views at Meliá Ngorongoro'
+  ]
+},
+{
+  id: 'private-east-africa-16-day',
+  title: '16-DAY PRIVATE SAFARI EAST AFRICA: WILDLIFE, CULTURE & COASTAL ESCAPE',
+  duration: '16 Days / 15 Nights',
+  price: '$8,450',
+  rating: 5.0,
+  reviews: 78,
+  href: "/safaris/packages/private-16-day",
+  image: 'https://www.gettyimages.com/detail/photo/hot-air-balloons-at-sunrise-over-plains-royalty-free-image/146601959?w=900&h=500&s=1',  // Maasai Mara/Serengeti balloon sunrise (signature highlight)
+  description: 'Fully private 4x4 safaris across Kenya (Maasai Mara, Nakuru, Naivasha, Amboseli) and Tanzania (Tarangire, Serengeti, Ngorongoro), with hot air balloon, Maasai cultural visits, cross-border transit, and 3-night Zanzibar beach retreat at Seacliff Resort & Spa.',
+  highlights: [
+    'Hot air balloon safari over Serengeti plains',
+    'Maasai village cultural experiences & dances',
+    'Private game drives in Maasai Mara & Serengeti',
+    'Hell\'s Gate walking safari & Lake Naivasha boat ride',
+    'Relaxing Zanzibar beach & marine adventures finale'
+  ]
+},
+
+{
+  id: 'premium-tanzania-japanese-6-day',
+  title: '6-DAY PREMIUM TANZANIA SAFARI FOR JAPANESE TRAVELERS',
+  duration: '6 Days / 5 Nights',
+  price: '$4,250',
+  rating: 5.0,
+  reviews: 85,
+  href: "/safaris/packages/japanese-6-day",
+  image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/0f/05/78/serengeti-sunset-plains.jpg?w=900&h=500&s=1',  // Golden Serengeti sunset over endless plains with acacia trees (evokes calm reflection and wildlife harmony)
+  description: 'A refined, gentle 6-day Northern Tanzania safari tailored for Japanese travelers: Tarangire elephants & baobabs, Serengeti immersion, Ngorongoro views, comfortable lodges, professional English-speaking guides (Japanese guide optional), smooth logistics, and respectful pacing for first-time visitors, seniors, couples, or small groups.',
+  highlights: [
+    'Large elephant herds & iconic baobabs in Tarangire National Park',
+    'Full-day wildlife immersion in the endless Serengeti plains',
+    'Panoramic Ngorongoro Conservation Area views & wildlife',
+    'Comfortable, hygienic lodges with peaceful gardens & attentive service',
+    'Gentle schedule with window seats, private vehicle & educational guiding'
+  ]
+},
 ];
 
 export default function WildlifeSafariPage() {
